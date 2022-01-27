@@ -1,1 +1,103 @@
-Hello world
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <title>BurgerHeaven</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+     <header>
+       <h1>Welcome to Burger Heaven Online</h1>
+     </header>
+     <main>
+       <section>
+         <h3>Select burger</h3>
+         <p>This is where you execute burger selection</p>
+         <div class="Bad Burger" style="display: inline-block;">
+           <h4>The Bad Burger</h4>
+           <a href=""http://www.google.com/""></a>
+           <img src="https://www.thecookierookie.com/wp-content/uploads/2018/07/butter-burgers-recipe-8-of-8.jpg" alt="Bad Burger" title="Bad Burger" style="width: 150px;">
+           <ul>
+             <li>Super fat</li>
+             <li>Lots of layers</li>
+             <li>Very bad for health</li>
+             <li>You might die</li>
+           </ul>
+         </div>
+         <div class="Good Burger" style="display: inline-block;">
+           <h4>The Good Burger</h4>
+           <a href=""http://www.google.com/""></a>
+           <img src="https://biancazapatka.com/wp-content/uploads/2021/10/rote-bete-burger-720x1008.jpg" alt="Bad Burger" title="Bad Burger" style="width: 150px;">
+           <ul>
+             <li>Super tasty</li>
+             <li>Salad (yum)</li>
+             <li>Healthy and fresh</li>
+             <li>A good time</li>
+           </ul>
+         </div>
+         <div class="Meh Burger" style="display: inline-block;">
+           <h4>The Meh Burger</h4>
+           <a href=""http://www.google.com/""></a>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaed4fpWTVlwfOCfdjaQhlv3Yz4pkZhE4edw&usqp=CAU" alt="Bad Burger" title="Bad Burger" style="width: 150px;">
+           <ul>
+             <li>Not too good not too bad</li>
+             <li>Just enough</li>
+             <li>Tasty i guess...</li>
+             <li>You will just feel...meh</li>
+           </ul>
+         </div>
+       </section>
+       <section>
+         <h3>Customer information</h3>
+         <p>This is where you provide necessary information</p>
+         <form class="form" action="index.html" method="post">
+           <h4>Delivery information</h4>
+           <p>
+             <label for="fullname">Full name</label><br>
+             <input type="text" id="fullname" name="fullname" required="required" placeholder="First- and Last Name">
+           </p>
+           <p>
+             <label for="email">E-mail</label><br>
+             <input type="email" id="email" name="email" required="required" placeholder="E-mail address">
+           </p>
+           <p>
+             <label for="street">Street</label><br>
+             <input type="text" id="street" name="street" required="required" placeholder="Street name">
+           </p>
+           <p>
+             <label for="house">House</label><br>
+             <input type="number" id="house" name="house" required="required" placeholder="House number">
+           </p>
+           <p>
+             <label for="payment">Payment options</label><br>
+             <select id="payment" name="pay">
+                 <option>Credit card</option>
+                 <option>Swish</option>
+                 <option>Cash</option>
+                 <option>Bank transfer</option>
+             </select>
+          </p>
+          <p>
+            <label for="gender">Gender</label><br>
+            <input type="radio" name="gender" id="male" value="male" checked="checked">
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="nonbinary" value="nonbinary">
+            <label for="nonbinary">Non-binary</label>
+            <br>
+            <input type="radio" name="gender" id="undisclosed" value="undisclosed">
+            <label for="undisclosed">Undisclosed</label>
+          </p>
+        </form>
+       </section>
+       <button type="submit">
+         <img src="https://www.pngarts.com/files/7/Online-Food-Delivery-PNG-Image.png" style="width: 20px;">
+         Place my order!
+       </button>
+     </main>
+     <hr>
+     <footer>&copy; 2022 Hypothetical Inc.</footer>
+   </body>
+</html>
